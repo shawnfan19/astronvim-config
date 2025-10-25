@@ -5,7 +5,7 @@
 
 -- List of available colorschemes
 local colorschemes = {
-  "aurora",
+  -- "aurora",
   "bamboo",
   "bluloco",
   "catppuccin",
@@ -15,7 +15,7 @@ local colorschemes = {
   "eldritch",
   "everblush",
   "everforest",
-  "fluoromachine",
+  -- "fluoromachine",
   "github_dark",
   "gruvbox-baby",
   "gruvbox",
@@ -29,7 +29,7 @@ local colorschemes = {
   "melange",
   "mellifluous",
   "mellow",
-  "miasma",
+  -- "miasma",
   -- "mini-base16",
   "modus",
   "monokai-pro",
@@ -97,6 +97,8 @@ return {
         DiagnosticVirtualTextInfo = { fg = "#9ece6a", bg = "none" },
         DiagnosticVirtualTextError = { fg = "#bd2c00", bg = "none" },
         -- NeoTree
+        NeoTreeEndOfBuffer = { bg = "none" },
+        EndOfBuffer = { bg = "none" },
         NeoTreeNormal = { bg = "none" },
         NeoTreeNormalNC = { bg = "none" },
         NeoTreeTabInactive = { bg = "none" },
@@ -120,6 +122,8 @@ return {
         TabLine = { bg = "none" },
         TabLineSel = { bg = "none" },
         TabLineFill = { bg = "none" },
+        -- LineNumber
+        LineNr = { bg = "none" },
         -- Cursor
         CursorLineNr = { bg = "none" },
         CursorLine = { bg = "none" },
