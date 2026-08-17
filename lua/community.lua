@@ -8,6 +8,7 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.aurora" },
   { import = "astrocommunity.colorscheme.bamboo-nvim" },
